@@ -5,7 +5,10 @@ module.exports = {
   solidity: "0.8.20",
   networks: {
     swisstronik: {
-      url: "https://json-rpc.testnet.swisstronik.com/",
+      url: "
+        https://json-rpc.testnet.swisstronik.com/
+         https://json-rpc.testnet.swisstronik.com/
+        ",
       accounts: [`0x${process.env.PRIVATE_KEY}`],
     },
   },
